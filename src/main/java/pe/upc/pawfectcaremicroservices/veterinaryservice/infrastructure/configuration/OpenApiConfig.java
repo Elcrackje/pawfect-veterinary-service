@@ -20,7 +20,7 @@ public class OpenApiConfig {
                         .description("API for Veterinary Service"))
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:8010/veterinary-service")
+                                .url("https://pawfect-gateway-service.azurewebsites.net/veterinary-service")
                                 .description("Gateway Server")/*,
                         new Server()
                                 .url("http://localhost:8092")
